@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 100.times do |index|
-  Ad.create(title: "Ad title ##{ index }")
+  Item.create(title: "Ad title ##{ index }")
 end

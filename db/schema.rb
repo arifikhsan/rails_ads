@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2020_09_20_101339) do
 
-  create_table "ads", force: :cascade do |t|
+  create_table "items", force: :cascade do |t|
     t.string "title"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
